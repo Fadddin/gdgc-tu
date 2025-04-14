@@ -52,10 +52,10 @@ export default function MeetTeam() {
       title: "GDG Lead",
       quote: "Dream big. Start small. Act now.",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-        instagram: "#",
+        linkedin: "www.linkedin.com/in/abhradeep-dey-503723265",
+        twitter: "https://x.com/DeyAbhradeep04",
+        github: "https://github.com/abde1245",
+        instagram: "https://www.instagram.com/abhradeep1245",
       },
     },
     {
@@ -78,10 +78,11 @@ export default function MeetTeam() {
       title: "Management Lead",
       quote: "Life is better when you’re laughing.",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-        instagram: "#",
+        linkedin: "https://in.linkedin.com/in/afrid-ahmed-39a02a1b5",
+        twitter: "https://x.com/MccreaAfrid",
+        github: "https://github.com/AfridMcCrea",
+        instagram:
+          "https://www.instagram.com/afrid_mccrea?igsh=MTF6Z2pmdHlybGgxag%3D%3D&utm_source=qr",
       },
     },
     {
@@ -104,10 +105,10 @@ export default function MeetTeam() {
       title: "Design Lead",
       quote: "Collect moments, not things.",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/sanyukta-phukan-a872212a4",
         twitter: "#",
         github: "#",
-        instagram: "#",
+        instagram: "https://www.instagram.com/sarahatesalads",
       },
     },
     {
@@ -117,10 +118,10 @@ export default function MeetTeam() {
       title: "Development Co-Lead",
       quote: "Adventure awaits those who dare.",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-        instagram: "#",
+        linkedin: " https://www.linkedin.com/in/umananda-siddha-399b95217/",
+        twitter: "https://x.com/TheFallen2428",
+        github: "https://github.com/UmanandaSiddha",
+        instagram: "https://www.instagram.com/shivaji9407/",
       },
     },
     {
@@ -130,10 +131,10 @@ export default function MeetTeam() {
       title: "Programming Co-Lead",
       quote: "In a world where you can be anything, be kind.",
       social: {
-        linkedin: "#",
+        linkedin: "https://linkedin.com/in/debasishbordoloi555",
         twitter: "#",
-        github: "#",
-        instagram: "#",
+        github: "https://github.com/debord555",
+        instagram: "https://www.instagram.com/d347h570n3",
       },
     },
     {
@@ -156,10 +157,11 @@ export default function MeetTeam() {
       title: "Management Co-Lead",
       quote: "I do diplomacy.",
       social: {
-        linkedin: "#",
-        twitter: "#",
-        github: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/debasish-bhuyan-8a8854253",
+        twitter: "https://x.com/oye_debasish?s=09",
+        github: "https://github.com/debab007",
+        instagram:
+          "https://www.instagram.com/debasish.db_?igsh=MWhmZHU2Y2xwYnplcA==",
       },
     },
     {
