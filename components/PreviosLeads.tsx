@@ -86,10 +86,10 @@ export default function PreviousLeads() {
             id: 1,
             name: "Abhinav Upadhyay",
             title: "Lead Organizer (2023-2024)",
-            imageUrl: "/GDGC2024/Abhinav_Upadhyay.HEIC",
+            imageUrl: "/GDGC2024/Abhinav_Upadhyay.jpeg",
             social: {
-                linkedin: "#",
-                github: "#",
+                linkedin: "https://www.linkedin.com/in/abhinav-upadhyay-67973821b/",
+                github: "http://github.com/Abhinav-Upadhyay03",
             },
         },
         {
@@ -98,7 +98,7 @@ export default function PreviousLeads() {
             title: "Technical Lead (2023-2024)",
             imageUrl: "/placeholder.svg?height=100&width=100",
             social: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/himangshulahkar/",
                 github: "#",
             },
         },
@@ -128,7 +128,7 @@ export default function PreviousLeads() {
             title: "Programming Lead (2023-2024)",
             imageUrl: "/GDGC2024/Jyotishmoy_Deka.jpg",
             social: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/jyotishmoy-deka-6871b9229/",
                 github: "#",
             },
         },
@@ -152,26 +152,26 @@ export default function PreviousLeads() {
                 github: "#",
             },
         },
-        {
-            id: 8,
-            name: "Karthik Menon",
-            title: "Technical Lead (2020-2021)",
-            imageUrl: "/placeholder.svg?height=100&width=100",
-            social: {
-                linkedin: "#",
-                github: "#",
-            },
-        },
-        {
-            id: 9,
-            name: "Divya Sharma",
-            title: "Event Coordinator (2020-2021)",
-            imageUrl: "/placeholder.svg?height=100&width=100",
-            social: {
-                linkedin: "#",
-                github: "#",
-            },
-        },
+        // {
+        //     id: 8,
+        //     name: "Karthik Menon",
+        //     title: "Technical Lead (2020-2021)",
+        //     imageUrl: "/placeholder.svg?height=100&width=100",
+        //     social: {
+        //         linkedin: "#",
+        //         github: "#",
+        //     },
+        // },
+        // {
+        //     id: 9,
+        //     name: "Divya Sharma",
+        //     title: "Event Coordinator (2020-2021)",
+        //     imageUrl: "/placeholder.svg?height=100&width=100",
+        //     social: {
+        //         linkedin: "#",
+        //         github: "#",
+        //     },
+        // },
     ]
 
     return (

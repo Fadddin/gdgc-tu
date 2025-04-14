@@ -252,7 +252,7 @@ export default function MeetTeam() {
                     <Link
                       key={i}
                       href={href}
-                      className="relative inline-flex items-center justify-center w-8 h-8 rounded-full text-gray-400"
+                      className="relative inline-flex items-center justify-center w-8 h-8 rounded-full text-gray-400 hover:bg-blue-100"
                     >
                       <Icon className="w-5 h-5" />
                     </Link>
