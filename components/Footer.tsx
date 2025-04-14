@@ -8,10 +8,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <h3 className="font-google-sans font-bold text-xl mb-4">
-              <span className="text-google-blue">G</span>
-              <span className="text-google-red">D</span>
-              <span className="text-google-yellow">G</span>
-              <span className="text-google-green"> Tezpur University</span>
+              <span className="text-[#1A73E8]">G</span>
+              <span className="text-[#D93025]">D</span>
+              <span className="text-[#F9AB00]">G</span>
+              <span className="text-[#188038]"> Tezpur University</span>
             </h3>
             <p className="text-gray-600 mb-4 max-w-md">
               Google Developer Groups (GDG) Tezpur University is a community of developers who are interested in
@@ -84,7 +84,7 @@ export default function Footer() {
 
         <div className="border-t mt-12 pt-8 text-center text-gray-500">
           <p>© {new Date().getFullYear()} Google Developer Groups Tezpur University. All rights reserved.</p>
-          
+
         </div>
       </div>
     </footer>
