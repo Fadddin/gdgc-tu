@@ -18,10 +18,16 @@ interface EventProps {
 
 export default function EventCard({ event, isUpcoming }: EventProps) {
   return (
-    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105 duration-300">
-      <div className="relative h-48">
-        <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
+    <div className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform sm:hover:scale-105 duration-300">
+      {!isUpcoming && <div className="relative h-96">
+        <Image src={event.image || "/placeholder.svg"} alt={event.title} fill />
       </div>
+      }
+
+      {isUpcoming && <div className="relative sm:h-80 h-64">
+        <Image src={event.image || "/placeholder.svg"} alt={event.title} fill />
+      </div>
+      }
 
       <div className="p-6">
         <h3 className="text-xl font-bold mb-3 font-google-sans">{event.title}</h3>
