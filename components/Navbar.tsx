@@ -43,12 +43,12 @@ export default function Navbar() {
             <div className="relative h-10 w-10 flex items-center">
               <Image src="/logo.png?height=40&width=40" alt="GDG Logo" width={40} height={40} />
             </div>
-            <span className="font-google-sans font-medium text-2xl">
-              <span className="text-google-blue">G</span>
-              <span className="text-google-red">D</span>
-              <span className="text-google-yellow">G</span>
-              <span className="text-google-blue">C</span>
-              <span className="text-google-green ml-2">TEZU</span>
+            <span className="font-google-sans font-bold text-2xl">
+              <span className="text-[#1A73E8]">G</span>
+              <span className="text-[#D93025]">D</span>
+              <span className="text-[#F9AB00]">G</span>
+              <span className="text-[#188038]">C</span>
+              <span className="text-[#202124] ml-2">TEZU</span>
             </span>
           </Link>
 
