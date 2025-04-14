@@ -193,7 +193,7 @@ const leads = [
     {
       id: "1",
       name: "Abhradeep Dey",
-      imageUrl: "leads/abhradeep.jpeg",
+      imageUrl: "/GDGC2025/Abhradeep_Dey.jpeg",
       title: "GDG Lead",
       quote: "Dream big. Start small. Act now.",
       social: {
@@ -205,7 +205,7 @@ const leads = [
     },{
       id: "2",
       name: "Fardin Khan Rahman",
-      imageUrl: "leads/fardin.jpeg",
+      imageUrl: "GDGC2025/Fardin_Khan_Rahman.jpeg",
       title: "Technical Lead",
       quote: "Sometimes you just have to create your own sunshine.",
       social: {
@@ -217,7 +217,7 @@ const leads = [
     },{
       id: "3",
       name: "Afrid Ahmed",
-      imageUrl: "leads/afridbilla.jpeg",
+      imageUrl: "/GDGC2025/Afrid_Ahmed.jpeg",
       title: "Management Lead",
       quote: "Life is better when you’re laughing.",
       social: {
@@ -229,7 +229,7 @@ const leads = [
     },{
       id: "4",
       name: "Himadree Changmai",
-      imageUrl: "leads/Himadreee.jpeg",
+      imageUrl: "/GDGC2025/Himadree_Changmai.jpeg",
       title: "Content Lead",
       quote: "The best way to predict the future is to create it.",
       social: {
@@ -241,7 +241,7 @@ const leads = [
     },{
       id: "5",
       name: "Sanyukta Phukan",
-      imageUrl: "leads/sanyukta.jpeg",
+      imageUrl: "/GDGC2025/Sanyukta_Phukan.jpeg",
       title: "Design Lead",
       quote: "Collect moments, not things.",
       social: {
@@ -253,7 +253,7 @@ const leads = [
     },{
       id: "6",
       name: "Umananda Siddha",
-      imageUrl: "leads/umananda.jpeg",
+      imageUrl: "GDGC2025/Umananda_Siddha.jpeg",
       title: "Development Co-Lead",
       quote: "Adventure awaits those who dare.",
       social: {
@@ -265,7 +265,7 @@ const leads = [
     },{
       id: "7",
       name: "Debashish Bordoloi",
-      imageUrl: "leads/debashish.jpeg",
+      imageUrl: "/GDGC2025/Debashish_Bordoloi.jpeg",
       title: "Programming Co-Lead",
       quote: "In a world where you can be anything, be kind.",
       social: {
@@ -277,7 +277,7 @@ const leads = [
     },{
       id: "8",
       name: "Shreyansh Dubey",
-      imageUrl: "leads/shreyansh.jpeg",
+      imageUrl: "/GDGC2025/Shreyansh_Dubey.jpeg",
       title: "PR & Sponsorships Lead",
       quote: "Be a voice, not an echo.",
       social: {
@@ -289,7 +289,7 @@ const leads = [
     },{
       id: "9",
       name: "Debasish Bhuyan",
-      imageUrl: "leads/dbBhuyan.jpeg",
+      imageUrl: "/GDGC2025/Debashish_Bhuyan.jpeg",
       title: "Management Co-Lead",
       quote: "I do diplomacy.",
       social: {
@@ -302,7 +302,7 @@ const leads = [
     {
       id: "10",
       name: "Harsh Kumar",
-      imageUrl: "leads/harsh.jpg",
+      imageUrl: "GDGC2025/Harsh_Kumar.jpeg",
       title: "Programming Co-Lead",
       quote: "Happiness is not by chance, but by choice.",
       social: {
@@ -314,7 +314,7 @@ const leads = [
     },{
       id: "11",
       name: "Ritap Dey",
-      imageUrl: "leads/me.jpeg",
+      imageUrl: "/GDGC2025/Ritap_Dey.jpeg",
       title: "Development Co-Lead",
       quote: "We don't remember days, we remember moments.",
       social: {
