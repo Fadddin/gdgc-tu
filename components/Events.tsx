@@ -156,10 +156,10 @@ export default function Events() {
           Upcoming Events
         </h2>
 
-        {<p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Join us for exciting workshops, hackathons, and tech talks to enhance your skills and connect with fellow
           developers.
-        </p>}
+        </p>
 
         {isUpcomingEventsLoading && (
           <DataLoader />
@@ -178,7 +178,7 @@ export default function Events() {
               className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-transform hover:scale-105 duration-300"
             >
               <div className="relative h-48">
-                <Image src={event.image || "/placeholder.svg"} alt={event.title} fill className="object-cover" />
+                <Image src={event.image || "/placeholder.svg"} alt={event.title} fill />
               </div>
 
               <div className="p-6">
