@@ -151,9 +151,11 @@ export default function PreviousLeads() {
       title: "Content Lead (2023-2024)",
       imageUrl: "/GDGC2024/Mugdha_Saikia.jpeg",
       social: {
-        linkedin: "#",
+        linkedin:
+          "https://www.linkedin.com/in/mugdha-s-75a4b8195?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         github: "#",
-        instagram: "#",
+        instagram:
+          "https://www.instagram.com/mugdha__saikia?igsh=MTYzbmdzeGo2N212dA==",
       },
     },
     {
