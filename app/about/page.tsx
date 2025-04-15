@@ -39,50 +39,49 @@ export default function About() {
     <div className="min-h-screen w-full overflow-hidden">
       <FloatingShapes />
 
-      <PageHeader title="About GDG Tezpur University" subtitle="Learn more about our community and mission" />
+      <PageHeader
+        title="About GDG Tezpur University"
+        subtitle="Empowering Developers, Building Community"
+      />
 
       <div className="container mx-auto px-4 py-16" ref={contentRef}>
-        <div className="max-w-4xl mx-auto">
-          <p className="text-lg mb-8">
-            Google Developer Groups (GDG) Tezpur University is a community of developers who are interested in Google's
-            developer technology. From Android, Web, and Google Cloud Platform, to Angular, Machine Learning, and more,
-            we cover a wide range of technologies.
+        <div className="max-w-4xl mx-auto text-lg space-y-8">
+          <p>
+            Google Developer Groups (GDG) Tezpur University is a community of tech enthusiasts, passionate about Google’s developer technologies. From Android and Web development to Google Cloud, Angular, Machine Learning, and beyond — we explore, innovate, and level up our skills through hands-on experience.
+          </p>
+          <p>
+            Our goal is to create a platform where students can learn, collaborate, and grow together through engaging events, comprehensive workshops, and hands-on projects — all while staying at the forefront of technology.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100" ref={missionRef}>
               <h3 className="text-2xl font-bold mb-4 text-google-blue">Our Mission</h3>
               <p>
-                To build a strong developer community at Tezpur University where students can learn, share, and grow
-                together through events, workshops, and collaborative projects.
+                To foster a thriving developer community at Tezpur University where students can learn, collaborate, and grow together through engaging events, comprehensive workshops, and hands-on projects.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100" ref={visionRef}>
               <h3 className="text-2xl font-bold mb-4 text-google-red">Our Vision</h3>
               <p>
-                To create an inclusive tech ecosystem that empowers students to become industry-ready developers and
-                innovators who can solve real-world problems.
+                To build a dynamic tech ecosystem that equips students with the skills to become industry-ready developers and innovators, with the aim of making them capable in tackling real-world challenges.
               </p>
             </div>
           </div>
 
           <div ref={historyRef}>
-            <h2 className="text-3xl font-bold mb-6">Our History</h2>
+            <h2 className="text-3xl font-bold mb-6">Our Journey</h2>
             <p className="mb-4">
-              GDG Tezpur University was established in 2019 with a small group of passionate students who wanted to
-              bring Google technologies to campus. Since then, we've grown to over 900 active members and have conducted
-              more than 20 successful events.
+              Founded in <strong>2023</strong> by a passionate group of students, GDG Tezpur University began with a vision to bring Google technologies to the campus and foster a collaborative environment for aspiring tech enthusiasts.
             </p>
             <p className="mb-4">
-              Our community has hosted workshops on Android Development, Web Development, Cloud Computing, Machine
-              Learning, and more. We've also organized hackathons, coding competitions, and tech talks featuring
-              industry experts.
+              What started as a small initiative has now grown into one of the largest and most active technical communities on campus, with over <strong>900 dedicated members</strong>. Since our inception, we’ve hosted over <strong>20 successful events</strong> on topics like Android Development, Cloud Computing, and Machine Learning.
+            </p>
+            <p className="mb-4">
+              Our workshops are designed to empower students with practical skills, while our hackathons and coding competitions offer real-world challenges that inspire innovation and problem-solving.
             </p>
             <p>
-              Today, GDG Tezpur University stands as one of the most active technical communities on campus, providing a
-              platform for students to enhance their skills, network with professionals, and stay updated with the
-              latest technologies.
+              Today, GDG Tezpur University stands as a beacon of collaboration, learning, and growth — dedicated to connecting like-minded students and helping them thrive in the tech industry.
             </p>
           </div>
         </div>
