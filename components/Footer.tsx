@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Github, Youtube } from "lucide-react"
+import {  Instagram, Linkedin  } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -18,24 +18,32 @@ export default function Footer() {
               Google's developer technology.
             </p>
             <div className="flex space-x-4">
+              
               <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Facebook size={20} />
+              <svg
+                                className="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="https://www.instagram.com/gdgc_tezu?igsh=MTJkdWJ3enI1dDU0aw=="
+                                fill="currentColor"
+                                viewBox="0 0 8 19"
+                            >
+                                
+                            </svg>
+                            <Instagram size={20} />
               </Link>
               <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Twitter size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Instagram size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
+              <svg
+                                className="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="https://www.linkedin.com/company/gdsc-tezpur-university/"
+                                fill="currentColor"
+                                viewBox="0 0 8 19"
+                            >
+                              
+                            </svg>
                 <Linkedin size={20} />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Github size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Youtube size={20} />
-              </Link>
+              
             </div>
           </div>
 
@@ -70,14 +78,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="text-gray-600">Tezpur University, Napaam</li>
               <li className="text-gray-600">Tezpur, Assam - 784028</li>
-              <li>
-                <Link
-                  href="mailto:gdg.tezpur@gmail.com"
-                  className="text-gray-600 hover:text-google-blue transition-colors"
-                >
-                  gdg.tezpur@gmail.com
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>
