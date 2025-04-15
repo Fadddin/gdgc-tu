@@ -40,16 +40,16 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="relative h-10 w-10 flex items-center">
-              <Image src="/logo.png?height=40&width=40" alt="GDG Logo" width={40} height={40} />
+            <div className="relative h-12 w-60 flex items-center">
+              <Image src="/fullLogotwo.png" alt="GDG Logo" width={240} height={140} />
             </div>
-            <span className="font-google-sans font-bold text-2xl">
+            {/* <span className="font-google-sans font-bold text-2xl">
               <span className="text-[#1A73E8]">G</span>
               <span className="text-[#D93025]">D</span>
               <span className="text-[#F9AB00]">G</span>
               <span className="text-[#188038]">C</span>
               <span className="text-[#202124] ml-2">TEZU</span>
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}

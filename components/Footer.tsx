@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Github, Youtube } from "lucide-react"
+import {  Instagram, Linkedin  } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -11,31 +11,40 @@ export default function Footer() {
               <span className="text-[#1A73E8]">G</span>
               <span className="text-[#D93025]">D</span>
               <span className="text-[#F9AB00]">G</span>
-              <span className="text-[#188038]"> Tezpur University</span>
+              <span className="text-[#188038]">C</span>
+              <span className="text-[#3e3e3e]"> Tezpur University</span>
             </h3>
             <p className="text-gray-600 mb-4 max-w-md">
               Google Developer Groups (GDG) Tezpur University is a community of developers who are interested in
               Google's developer technology.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Facebook size={20} />
+              
+              <Link href="https://www.instagram.com/gdgc_tezu/" className="text-gray-500 hover:text-google-blue transition-colors">
+              <svg
+                                className="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="https://www.instagram.com/gdgc_tezu?igsh=MTJkdWJ3enI1dDU0aw=="
+                                fill="currentColor"
+                                viewBox="0 0 8 19"
+                            >
+                                
+                            </svg>
+                            <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Twitter size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Instagram size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
+              <Link href="https://www.linkedin.com/company/gdsc-tezpur-university" className="text-gray-500 hover:text-google-blue transition-colors">
+              <svg
+                                className="w-4 h-4"
+                                aria-hidden="true"
+                                xmlns="https://www.linkedin.com/company/gdsc-tezpur-university/"
+                                fill="currentColor"
+                                viewBox="0 0 8 19"
+                            >
+                              
+                            </svg>
                 <Linkedin size={20} />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Github size={20} />
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
-                <Youtube size={20} />
-              </Link>
+              
             </div>
           </div>
 
@@ -70,14 +79,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="text-gray-600">Tezpur University, Napaam</li>
               <li className="text-gray-600">Tezpur, Assam - 784028</li>
-              <li>
-                <Link
-                  href="mailto:gdg.tezpur@gmail.com"
-                  className="text-gray-600 hover:text-google-blue transition-colors"
-                >
-                  gdg.tezpur@gmail.com
-                </Link>
-              </li>
+             
             </ul>
           </div>
         </div>
