@@ -48,7 +48,8 @@ export default function Projects() {
     {
       id: 2,
       title: "Heart Disease Prediction with ML",
-      description: "This application predicts the likelihood of heart disease based on user-provided medical attributes. It leverages machine learning models from scikit-learn and provides a user-friendly interface using Streamlit. The app is deployed on the web.",
+      description:
+        "This application predicts the likelihood of heart disease based on user-provided medical attributes. It leverages machine learning models from scikit-learn and provides a user-friendly interface using Streamlit. The app is deployed on the web.",
       image: "/PROJECTS/Heart_Disease_Prediction_with_ML.png",
       technologies: ["Scikit Learn", "Streamlit", "Python"],
       githubLink: "https://github.com/an-admin/Heart_dis",
@@ -58,9 +59,10 @@ export default function Projects() {
     {
       id: 3,
       title: "Rich AI Text Editor",
-      description: "Rich AI Text Editor can write poems stories and answers your questions with gemini ai in different languages such as Hindi English etc and also helps in removing extra *** or -- when we copy content from gpts or llms",
+      description:
+        "Rich AI Text Editor can write poems stories and answers your questions with gemini ai in different languages such as Hindi English etc and also helps in removing extra *** or -- when we copy content from gpts or llms",
       image: "/PROJECTS/Rich_AI_Text_Editor.jpg",
-      technologies: ["React Js", "Tailwind CSS" ,"Gemini Api"],
+      technologies: ["React Js", "Tailwind CSS", "Gemini Api"],
       githubLink: "https://github.com/Aslam554/Rich-Text-Editor",
       contributors: ["Mirza Aslam Beg"],
       demoLink: "https://richtexteditors.netlify.app/",
@@ -68,7 +70,8 @@ export default function Projects() {
     {
       id: 4,
       title: "VidSummarizerMCP",
-      description: "VidSummarizerMCP is a cutting-edge Model Context Protocol (MCP) server designed to transform YouTube video content into structured, detailed notes using the power of the YouTube Data API and Google Gemini's multimodal AI capabilities.",
+      description:
+        "VidSummarizerMCP is a cutting-edge Model Context Protocol (MCP) server designed to transform YouTube video content into structured, detailed notes using the power of the YouTube Data API and Google Gemini's multimodal AI capabilities.",
       image: "/PROJECTS/VidSummarizerMCP.jpg",
       technologies: ["FastAPI", "Python", "Streamlit"],
       githubLink: null,
@@ -78,7 +81,8 @@ export default function Projects() {
     {
       id: 5,
       title: "Medical Image Analyzer",
-      description: "An AI-powered assistant built on Google Gemini, designed to help medical professionals diagnose diseases with greater precision, speed, and confidence.",
+      description:
+        "An AI-powered assistant built on Google Gemini, designed to help medical professionals diagnose diseases with greater precision, speed, and confidence.",
       image: "/PROJECTS/Medical_Image_Analyzer.png",
       technologies: ["Streamlit", "Python"],
       githubLink: null,
@@ -88,7 +92,8 @@ export default function Projects() {
     {
       id: 6,
       title: "PokeDex",
-      description: "This app is what the name says, Its a PokeDex app which let's you browse pokemons to your heart's content, with sleek animations and all stats of individual pokemons.",
+      description:
+        "This app is what the name says, Its a PokeDex app which let's you browse pokemons to your heart's content, with sleek animations and all stats of individual pokemons.",
       image: "/PROJECTS/pokedex.jpg",
       technologies: ["Jetpack Compose", "Kotlin", "Retrofit", "Dagger Hilt", "Timber", "Coil"],
       githubLink: "https://github.com/jarvis1704/Android-PokeDex",

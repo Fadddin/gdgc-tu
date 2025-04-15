@@ -36,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="light">
-      <body className={`${inter.variable} ${googleSans.variable} font-sans bg-white`}>
+      <body className={`${inter.variable} ${googleSans.variable} font-sans bg-white select-none`}>
         <Navbar />
         <main>
           {children}

@@ -66,7 +66,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="#newsletter"
+              href="https://gdg.community.dev/gdg-on-campus-tezpur-university-tezpur-india/"
               className="bg-google-blue text-white px-4 py-2 rounded-full font-medium hover:bg-blue-600 transition-colors"
             >
               Join Us
@@ -98,7 +98,7 @@ export default function Navbar() {
                 </Link>
               ))}
               <Link
-                href="#newsletter"
+                href="https://gdg.community.dev/gdg-on-campus-tezpur-university-tezpur-india/"
                 className="bg-google-blue text-white px-4 py-2 rounded-full font-medium hover:bg-blue-600 transition-colors text-center"
                 onClick={() => setIsOpen(false)}
               >
