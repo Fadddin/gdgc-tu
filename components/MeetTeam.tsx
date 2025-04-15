@@ -63,7 +63,7 @@ export default function MeetTeam() {
       name: "Fardin Khan Rahman",
       imageUrl: "GDGC2025/Fardin_Khan_Rahman.jpeg",
       title: "Technical Lead",
-      quote: "Sometimes you just have to create your own sunshine.",
+      quote: "The machine hums; the truth is elsewhere.",
       social: {
         linkedin: "https://www.linkedin.com/in/fardin-khan-a62a06266/",
         twitter: "https://x.com/Fardink2016",
@@ -75,7 +75,7 @@ export default function MeetTeam() {
       id: "3",
       name: "Afrid Ahmed",
       imageUrl: "/GDGC2025/Afrid_Ahmed.jpeg",
-      title: "Management Lead",
+      title: "Management Co-Lead",
       quote: "Life is better when you’re laughing.",
       social: {
         linkedin: "https://in.linkedin.com/in/afrid-ahmed-39a02a1b5",
@@ -126,7 +126,7 @@ export default function MeetTeam() {
     },
     {
       id: "7",
-      name: "Debashish Bordoloi",
+      name: "Debasish Bordoloi",
       imageUrl: "/GDGC2025/Debashish_Bordoloi.jpeg",
       title: "Programming Co-Lead",
       quote: "In a world where you can be anything, be kind.",

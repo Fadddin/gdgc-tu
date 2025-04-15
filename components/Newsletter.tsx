@@ -5,6 +5,7 @@ import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { Send, CheckCircle } from "lucide-react"
+import { BackgroundBoxesDemo } from "./BackgroundWithBoxes"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -28,20 +29,20 @@ export default function Newsletter() {
     })
   }, [])
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (email) {
-      // Here you would typically send the email to your backend
-      console.log("Submitted email:", email)
-      setSubmitted(true)
+  // const handleSubmit = (e) => {
+  //   e.preventDefault()
+  //   if (email) {
+  //     // Here you would typically send the email to your backend
+  //     console.log("Submitted email:", email)
+  //     setSubmitted(true)
 
-      // Reset form after 3 seconds
-      setTimeout(() => {
-        setSubmitted(false)
-        setEmail("")
-      }, 3000)
-    }
-  }
+  //     // Reset form after 3 seconds
+  //     setTimeout(() => {
+  //       setSubmitted(false)
+  //       setEmail("")
+  //     }, 3000)
+  //   }
+  // }
 
   return (
     <div className="py-20 bg-google-blue text-white">
@@ -61,25 +62,11 @@ export default function Newsletter() {
               <p className="text-gray-600">You've successfully subscribed to our newsletter.</p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit}>
-              <div className="flex flex-col md:flex-row gap-4">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email address"
-                  className="flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-google-blue focus:border-transparent text-gray-800"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="bg-google-blue text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-600 transition-colors flex items-center justify-center"
-                >
-                  Subscribe
-                  <Send className="h-4 w-4 ml-2" />
-                </button>
+            <form>
+              <div className="flex flex-col justify-center md:flex-row gap-4">
+                <BackgroundBoxesDemo/>
               </div>
-              <p className="text-gray-500 text-sm mt-4">We respect your privacy. Unsubscribe at any time.</p>
+              {/* <p className="text-gray-500 text-sm mt-4">We respect your privacy. Unsubscribe at any time.</p> */}
             </form>
           )}
         </div>

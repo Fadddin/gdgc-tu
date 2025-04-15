@@ -11,7 +11,8 @@ export default function Footer() {
               <span className="text-[#1A73E8]">G</span>
               <span className="text-[#D93025]">D</span>
               <span className="text-[#F9AB00]">G</span>
-              <span className="text-[#188038]"> Tezpur University</span>
+              <span className="text-[#188038]">C</span>
+              <span className="text-[#3e3e3e]"> Tezpur University</span>
             </h3>
             <p className="text-gray-600 mb-4 max-w-md">
               Google Developer Groups (GDG) Tezpur University is a community of developers who are interested in
@@ -19,7 +20,7 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
+              <Link href="https://www.instagram.com/gdgc_tezu/" className="text-gray-500 hover:text-google-blue transition-colors">
               <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -31,7 +32,7 @@ export default function Footer() {
                             </svg>
                             <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-500 hover:text-google-blue transition-colors">
+              <Link href="https://www.linkedin.com/company/gdsc-tezpur-university" className="text-gray-500 hover:text-google-blue transition-colors">
               <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
