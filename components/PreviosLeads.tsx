@@ -92,7 +92,7 @@ export default function PreviousLeads() {
       id: 1,
       name: "Abhinav Upadhyay",
       title: "Lead Organizer (2023-2024)",
-      imageUrl: "/GDGC2024/Abhinav_Upadhyay.jpeg",
+      imageUrl: "/GDGC2024/Abhinav_Upadhyay.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/abhinav-upadhyay-67973821b/",
         github: "http://github.com/Abhinav-Upadhyay03",
@@ -103,7 +103,7 @@ export default function PreviousLeads() {
       id: 2,
       name: "Himangshu Lahkar",
       title: "Technical Lead (2023-2024)",
-      imageUrl: "/placeholder.svg?height=100&width=100",
+      imageUrl: "/GDGC2024/Himangshu_Lahkar.jpg",
       social: {
         linkedin: "https://www.linkedin.com/in/himangshulahkar/",
         github: "#",
