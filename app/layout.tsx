@@ -4,6 +4,7 @@ import { Inter, Alegreya_Sans as Google_Sans } from "next/font/google"
 import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -21,6 +22,11 @@ const googleSans = Google_Sans({
 export const metadata: Metadata = {
   title: "Google Developer Groups - Tezpur University",
   description: "Official website of Google Developer Groups Tezpur University chapter",
+  icons: {
+    icon: [
+      { url: '/logo.png', sizes: '8x8', type: 'image/png' },
+    ]
+  }
 }
 
 export default function RootLayout({
@@ -32,7 +38,10 @@ export default function RootLayout({
     <html lang="en" className="light">
       <body className={`${inter.variable} ${googleSans.variable} font-sans bg-white`}>
         <Navbar />
-        <main>{children}</main>
+        <main>
+          {children}
+          <Analytics />
+        </main>
         <Footer />
       </body>
     </html>
