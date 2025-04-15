@@ -128,7 +128,7 @@ export default function PreviousLeads() {
       title: "Design Lead (2023-2024)",
       imageUrl: "/GDGC2024/Hrishita_Bhuyan.jpeg",
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/hrishita-bhuyan-b61b40226/",
         github: "#",
         instagram:
           "https://www.instagram.com/yeethri?igsh=MTFmNzR3MnUzbzllZQ%3D%3D&utm_source=qr",
@@ -162,9 +162,10 @@ export default function PreviousLeads() {
       title: "Development Lead (2023-2024)",
       imageUrl: "/GDGC2024/Debarshi_Sonowal.jpg",
       social: {
-        linkedin: "#",
-        github: "#",
-        instagram: "#",
+        linkedin: "https://www.linkedin.com/in/debarshisonowal/",
+        github: "https://github.com/DebarshiSonowal",
+        instagram:
+          "https://www.instagram.com/debarshi_sonowal?igsh=MXJ2Zmp6Zm4waGx1dg==",
       },
     },
     // {
