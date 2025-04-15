@@ -73,12 +73,12 @@ export default function Events() {
     try {
       // Fetch upcoming events from the Tezu GDG Community API
       const response = await fetch(
-        "https://gdg.community.dev/api/event_slim/for_chapter/2071/?status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&order=-start_date&fields=title,start_date,end_date,event_type_title,picture,banner,url,description_short,venue_name"
+        "https://gdg.community.dev/api/event_slim/for_chapter/2071/?status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&order=-start_date&fields=title,start_date,event_type_title,picture,banner,url,description_short,venue_name"
       );
 
       // Since there are no upcoming events, I am using an API of some other GDG Community API for testing purpose
       // const response = await fetch(
-      //   "https://gdg.community.dev/api/event_slim/for_chapter/287/?status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&order=-start_date&fields=title,start_date,end_date,event_type_title,picture,banner,url,description_short,venue_name"
+      //   "https://gdg.community.dev/api/event_slim/for_chapter/287/?status=Live&include_cohosted_events=true&visible_on_parent_chapter_only=true&order=-start_date&fields=title,start_date,event_type_title,picture,banner,url,description_short,venue_name"
       // );
 
       const data = await response.json();
@@ -106,13 +106,10 @@ export default function Events() {
           month: "long",
           day: "numeric",
         }),
-        time: (new Date(event.start_date).toLocaleTimeString([], {
+        time: new Date(event.start_date).toLocaleTimeString([], {
           hour: "2-digit",
           minute: "2-digit",
-        })) + " - " + (new Date(event.end_date).toLocaleTimeString([], {
-          hour: "2-digit",
-          minute: "2-digit",
-        })),
+        }),
         location: event.venue_name || "Virtual (Online)",
         image:
           event.banner || event.picture ||
