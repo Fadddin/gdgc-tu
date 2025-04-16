@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="text-[#3e3e3e]"> Tezpur University</span>
             </h3>
             <p className="text-gray-600 mb-4 max-w-md">
-              Google Developer Groups (GDG) Tezpur University is a community of developers who are interested in
+              Google Developer Groups on Campus (GDGC) Tezpur University is a community of developers who are interested in
               Google's developer technology.
             </p>
             <div className="flex space-x-4">
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t mt-12 pt-8 text-center text-gray-500">
-          <p>© {new Date().getFullYear()} Google Developer Groups Tezpur University. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Google Developer Groups on Campus Tezpur University. All rights reserved.</p>
 
         </div>
       </div>

@@ -11,6 +11,7 @@ export default function Hero() {
   const logoRef = useRef(null)
   const headingOneRef = useRef(null)
   const headingTwoRef = useRef(null)
+  const headingThreeRef = useRef(null)
   const buttonRef = useRef(null)
 
   useGSAP(() => {
@@ -35,6 +36,16 @@ export default function Hero() {
 
     timeline.from(
       headingTwoRef.current,
+      {
+        y: 20,
+        opacity: 0,
+        duration: 0.8,
+      },
+      "-=0.4",
+    )
+
+    timeline.from(
+      headingThreeRef.current,
       {
         y: 20,
         opacity: 0,
@@ -70,10 +81,14 @@ export default function Hero() {
           </div>
         </div>
 
-        <h1 ref={headingOneRef} className="text-4xl md:text-6xl font-bold mb-4 font-google-sans">
+        <h1 ref={headingOneRef} className="text-4xl md:text-6xl font-bold mb-2 font-google-sans">
           <span className="text-google-blue">Google</span> <span className="text-google-red">Developer</span>{" "}
           <span className="text-google-yellow">Groups</span>
         </h1>
+
+        <h2 ref={headingThreeRef} className="text-xl md:text-2xl font-medium text-blue-500 mb-2 font-google-sans">
+          on campus
+        </h2>
 
         <h2 ref={headingTwoRef} className="text-2xl md:text-4xl font-medium text-gray-600 mb-8 font-google-sans">
           Tezpur University

@@ -111,7 +111,7 @@ export default function Projects() {
       <div className="container mx-auto px-4 py-16" ref={contentRef}>
         <div className="max-w-6xl mx-auto">
           <p className="text-lg mb-12 max-w-3xl">
-            At GDG Tezpur University, we believe in learning by doing. Our members collaborate on various projects to
+            At GDGC Tezpur University, we believe in learning by doing. Our members collaborate on various projects to
             solve real-world problems and gain hands-on experience with Google technologies.
           </p>
 
